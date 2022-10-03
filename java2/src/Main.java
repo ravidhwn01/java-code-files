@@ -12,8 +12,17 @@ public class Main {
         }
         // casting in java
         int t = 3434;
-        double fullT = t +33.343;
+        double fullT = t +33.343; // successful casting done
         System.out.println(fullT);
+        int a = 343;
+       //  int b = a + 34.4;  // error
+        int b = a + (int)34.4;
+        System.out.println(b);
+
+        // constants
+        final  int aa = 35; // we can not change value of aa
+       //  aa= 3543;      // gives error
+
 
     }
 }
