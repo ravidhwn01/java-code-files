@@ -23,6 +23,10 @@ public class Main {
         final  int aa = 35; // we can not change value of aa
        //  aa= 3543;      // gives error
 
+        // operators in java
+        int c = 1;
+        System.out.println(++c);
+        System.out.println(c);
 
     }
 }
