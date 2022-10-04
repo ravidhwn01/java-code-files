@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("input dedo:");
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("input dedo:");
 //
-        int age = sc.nextInt(); // for integer value input
+//        int age = sc.nextInt(); // for integer value input
 //       // float ac = sc.nextFloat();  // for floating value input
 //        String name = sc.nextLine();  // for string as a input this only take single word /tokens leta hai : next()
 //        System.out.println(name);
@@ -24,27 +24,27 @@ public class Main {
 
 
         // 2 using switch case
-        switch (age) {
-            case 12:
-                System.out.println("you are monkey");
-                break;
-            case 34:
-                System.out.println("you are tiger");
-                break;
-            case 6:
-                System.out.println("you are mongoose");
-
-                break;
-            case 1:
-                System.out.println("you are bitch");
-
-                break;
-            case 7:
-                System.out.println("you are dog");
-                break;
-            default:
-                System.out.println("you are nothing");
-        }
+//        switch (age) {
+//            case 12:
+//                System.out.println("you are monkey");
+//                break;
+//            case 34:
+//                System.out.println("you are tiger");
+//                break;
+//            case 6:
+//                System.out.println("you are mongoose");
+//
+//                break;
+//            case 1:
+//                System.out.println("you are bitch");
+//
+//                break;
+//            case 7:
+//                System.out.println("you are dog");
+//                break;
+//            default:
+//                System.out.println("you are nothing");
+//        }
 // loops in java
         for (int i = 0; i<10;i++)
         {
@@ -54,6 +54,11 @@ public class Main {
 
         for(int j = 10;j>=0;j--){
             System.out.println(j);
+        }
+        int k = 90;
+        while (k>=1){
+            System.out.println(k);
+            k--;
         }
     }
 }
