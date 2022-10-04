@@ -46,8 +46,14 @@ public class Main {
                 System.out.println("you are nothing");
         }
 // loops in java
-        for (int i =0; i<100;i++){
-            System.out.print(i+" ");
+        for (int i = 0; i<10;i++)
+        {
+            System.out.print(i+" ");      // for loop ki declaration  sirf for loop me hi valid h bahar use nhi ke skte jese  int i = 0
+            System.out.println("\n");
+        }
+
+        for(int j = 10;j>=0;j--){
+            System.out.println(j);
         }
     }
 }
