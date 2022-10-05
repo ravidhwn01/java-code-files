@@ -1,4 +1,7 @@
 public class Main {
+    public static void prnt(String s){
+        System.out.println(s);
+    }
     public static void main(String[] args) {
         // Expection handling
         // TRY-CATCH in expection handling
@@ -13,5 +16,12 @@ public class Main {
             System.out.println("this is error");
         }
         System.out.println("my name is lazy!");
+
+        // functions in java
+        prnt("this is sting bro...!");
+        prnt("this is sting bro...!");
+        prnt("this is sting bro...!");
+        prnt("this is sting bro...!");
+
     }
 }
