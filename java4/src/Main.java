@@ -2,7 +2,13 @@ public class Main {
     public static void prnt(String s){
         System.out.println(s);
     }
+    public  void display(){
+        System.out.println("fn without parameter");
+    }public  void display2( String s){
+        System.out.println("fn with 1 "+s);
+    }
     public static void main(String[] args) {
+        Main obj = new Main();
         // Expection handling
         // TRY-CATCH in expection handling
 //        int arr[] = {3423,34,5,6};
@@ -22,6 +28,9 @@ public class Main {
         prnt("this is sting bro...!");
         prnt("this is sting bro...!");
         prnt("this is sting bro...!");
+
+obj.display();
+obj.display2("parameter");
 
     }
 }
