@@ -2,7 +2,7 @@ public class Main {
     int x = 5;
     String st = "hii kese ho 🥰 :-) ";
     Main(){
-        System.out.println("constructor is  calling 🤩🤩 ");
+        System.out.println("constructor is  calling 🐎🐎🐎🐎🐎🐎 🤩🤩 ");
         System.out.println(st);
     }
 
